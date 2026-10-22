@@ -1,0 +1,12 @@
+{
+  "name": "book-pm-management",
+  "private": true,
+  "description": "Companion repository for Practical Product Management in the Age of AI. The web app lives in pulse/ — these root scripts delegate there so hosted deployments can run from the repo root.",
+  "scripts": {
+    "postinstall": "cd pulse && npm install",
+    "build": "cd pulse && npm run build",
+    "dev": "cd pulse && npm run dev",
+    "start": "cd pulse && npm run dev",
+    "preview": "cd pulse && npm run preview"
+  }
+}
